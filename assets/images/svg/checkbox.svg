@@ -1,0 +1,12 @@
+<svg width="100" height="57" viewBox="0 0 100 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="checkbox">
+<rect x="0.5" y="0.5" width="99" height="56" rx="4.5" stroke="#585CE5" stroke-dasharray="10 5"/>
+<g id="Property 1= empty">
+<rect id="Rectangle 5416" x="20.4" y="20.4" width="15.2" height="15.2" rx="2.6" fill="white" stroke="#898D9E" stroke-width="0.8"/>
+</g>
+<g id="Property 1=filled">
+<rect id="Rectangle 5416_2" x="63.4" y="20.4" width="15.2" height="15.2" rx="2.6" fill="white" stroke="#898D9E" stroke-width="0.8"/>
+<path id="Vector" d="M76.3333 25L70.5 30.8333L67 27.3333" stroke="#585CE5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

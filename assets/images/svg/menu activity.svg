@@ -1,0 +1,26 @@
+<svg width="64" height="108" viewBox="0 0 64 108" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon / menu activity">
+<rect x="0.5" y="0.5" width="63" height="107" rx="4.5" stroke="#585CE5" stroke-dasharray="10 5"/>
+<g id="Property 1=outline">
+<path id="Oval" fill-rule="evenodd" clip-rule="evenodd" d="M31.9181 43.3375C36.8547 43.3375 40.8566 39.2929 40.8566 34.3036C40.8566 29.3144 36.8547 25.2698 31.9181 25.2698C26.9814 25.2698 22.9795 29.3144 22.9795 34.3036C22.9795 39.2929 26.9814 43.3375 31.9181 43.3375Z" stroke="#B0B2C4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape" d="M37.8771 27.5282L39.7393 25.6462" stroke="#B0B2C4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_2" d="M39.3669 25.2698L40.1117 26.0226" stroke="#B0B2C4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_3" d="M31.9181 25.2698V20.7528" stroke="#B0B2C4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_4" d="M34.1527 20.7528H29.6834" stroke="#B0B2C4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_5" d="M31.9181 35.0565L28.1937 30.8898" stroke="#B0B2C4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="Property 1=fill" clip-path="url(#clip0_14_558)">
+<path id="Oval_2" fill-rule="evenodd" clip-rule="evenodd" d="M31.9181 87.2475C36.8547 87.2475 40.8566 83.2029 40.8566 78.2137C40.8566 73.2244 36.8547 69.1798 31.9181 69.1798C26.9814 69.1798 22.9795 73.2244 22.9795 78.2137C22.9795 83.2029 26.9814 87.2475 31.9181 87.2475Z" fill="#585CE5" stroke="#585CE5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_6" d="M37.8771 71.4382L39.7393 69.5562" stroke="#585CE5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_7" d="M39.3669 69.1798L40.1117 69.9326" stroke="#585CE5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_8" d="M31.9181 69.1798V64.6628" stroke="#585CE5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_9" d="M34.1527 64.6628H29.6834" stroke="#585CE5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_10" d="M31.9181 78.9665L28.1937 74.7998" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_14_558">
+<rect width="24" height="24" fill="white" transform="translate(20 63.91)"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,11 @@
+<svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon / ecg bgr">
+<rect id="icon bgr" width="44" height="44" rx="12" fill="#F2D382"/>
+<g id="icon / ecg">
+<path id="Shape" fill-rule="evenodd" clip-rule="evenodd" d="M25.75 32.75H18.25L19 28.25H25L25.75 32.75V32.75Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_2" d="M16 32.75H28" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Rectangle-path" fill-rule="evenodd" clip-rule="evenodd" d="M10.75 15.5C10.75 14.2574 11.7574 13.25 13 13.25H31C32.2426 13.25 33.25 14.2574 33.25 15.5V26C33.25 27.2426 32.2426 28.25 31 28.25H13C11.7574 28.25 10.75 27.2426 10.75 26V15.5Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_3" d="M29.933 20.75H27.451C27.3256 20.7501 27.2084 20.6874 27.139 20.583L24.608 16.788C24.5339 16.6769 24.4063 16.6137 24.273 16.6219C24.1397 16.6302 24.0209 16.7086 23.961 16.828L20.039 24.672C19.9791 24.7913 19.8603 24.8698 19.727 24.878C19.5938 24.8862 19.4662 24.823 19.392 24.712L16.861 20.917C16.7916 20.8125 16.6744 20.7498 16.549 20.75H13.433" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

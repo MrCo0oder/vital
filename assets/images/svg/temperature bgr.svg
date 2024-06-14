@@ -1,0 +1,13 @@
+<svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon / temperature bgr">
+<rect id="icon bgr" width="44" height="44" rx="12" fill="#A6D0EE"/>
+<g id="icon / temperature">
+<path id="Shape" fill-rule="evenodd" clip-rule="evenodd" d="M21.5002 25.418V13.75C21.5002 12.0931 20.157 10.75 18.5002 10.75C16.8433 10.75 15.5002 12.0931 15.5002 13.75V25.418C14.1095 26.6618 13.6307 28.6348 14.2964 30.3778C14.9622 32.1208 16.6344 33.2721 18.5002 33.2721C20.366 33.2721 22.0382 32.1208 22.704 30.3778C23.3697 28.6348 22.8909 26.6618 21.5002 25.418Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_2" d="M18.5032 20.5V27.25" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Oval" fill-rule="evenodd" clip-rule="evenodd" d="M18.5032 30.25C19.3316 30.25 20.0032 29.5784 20.0032 28.75C20.0032 27.9216 19.3316 27.25 18.5032 27.25C17.6748 27.25 17.0032 27.9216 17.0032 28.75C17.0032 29.5784 17.6748 30.25 18.5032 30.25Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_3" d="M25.2532 13.75H30.5032" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_4" d="M25.2532 18.25H27.5032" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_5" d="M25.2532 22.75H30.5032" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

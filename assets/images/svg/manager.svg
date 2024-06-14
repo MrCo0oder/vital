@@ -1,0 +1,10 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon / manager">
+<path id="Rectangle-path" fill-rule="evenodd" clip-rule="evenodd" d="M0.751007 2.25C0.751007 1.42157 1.42258 0.75 2.25101 0.75H21.751C22.5794 0.75 23.251 1.42157 23.251 2.25V21.75C23.251 22.5784 22.5794 23.25 21.751 23.25H2.25101C1.42258 23.25 0.751007 22.5784 0.751007 21.75V2.25Z" stroke="#B0B2C4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape" d="M12.751 15.75H18.751" stroke="#B0B2C4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_2" d="M5.25101 15.75H8.25101" stroke="#B0B2C4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_3" fill-rule="evenodd" clip-rule="evenodd" d="M12.751 15.75C12.751 16.9925 11.7439 17.9998 10.5013 18C9.25883 18.0002 8.25138 16.9932 8.25101 15.7507C8.25064 14.5082 9.2575 13.5006 10.5 13.5C11.0969 13.4997 11.6695 13.7367 12.0916 14.1587C12.5138 14.5806 12.751 15.1531 12.751 15.75V15.75Z" stroke="#B0B2C4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_4" d="M14.251 8.25H5.25101" stroke="#B0B2C4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_5" fill-rule="evenodd" clip-rule="evenodd" d="M18.751 8.25C18.751 7.00749 17.7439 6.00018 16.5013 6C15.2588 5.99982 14.2514 7.00682 14.251 8.24933C14.2506 9.49184 15.2575 10.4994 16.5 10.5C17.7428 10.5 18.7505 9.4928 18.751 8.25Z" stroke="#B0B2C4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

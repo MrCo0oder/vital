@@ -1,0 +1,15 @@
+<svg width="64" height="108" viewBox="0 0 64 108" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon / menu progress">
+<rect x="0.5" y="0.5" width="63" height="107" rx="4.5" stroke="#585CE5" stroke-dasharray="10 5"/>
+<g id="Property 1=outline">
+<path id="Shape" d="M24 39L28.3008 31.7217C28.4532 31.4636 28.66 31.3186 28.8755 31.3186C29.0911 31.3186 29.2979 31.4636 29.4503 31.7217L31.5508 35.2765C31.7032 35.5346 31.91 35.6795 32.1255 35.6795C32.3411 35.6795 32.5479 35.5346 32.7003 35.2765L38 26.5" stroke="#B0B2C4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 71" d="M34 27L38.5 25.5L39.5 30" stroke="#B0B2C4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Rectangle-path" fill-rule="evenodd" clip-rule="evenodd" d="M20.746 22.25C20.746 21.4216 21.4176 20.75 22.246 20.75H41.746C42.5744 20.75 43.246 21.4216 43.246 22.25V41.75C43.246 42.5784 42.5744 43.25 41.746 43.25H22.246C21.4176 43.25 20.746 42.5784 20.746 41.75V22.25Z" stroke="#B0B2C4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="Property 1=fill">
+<path id="Rectangle-path_2" fill-rule="evenodd" clip-rule="evenodd" d="M20.746 66.25C20.746 65.4216 21.4176 64.75 22.246 64.75H41.746C42.5744 64.75 43.246 65.4216 43.246 66.25V85.75C43.246 86.5784 42.5744 87.25 41.746 87.25H22.246C21.4176 87.25 20.746 86.5784 20.746 85.75V66.25Z" fill="#585CE5" stroke="#585CE5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_2" d="M24 83L28.3008 75.7217C28.4532 75.4636 28.66 75.3186 28.8755 75.3186C29.0911 75.3186 29.2979 75.4636 29.4503 75.7217L31.5508 79.2765C31.7032 79.5346 31.91 79.6795 32.1255 79.6795C32.3411 79.6795 32.5479 79.5346 32.7003 79.2765L38 70.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 71_2" d="M34 71L38.5 69.5L39.5 74" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

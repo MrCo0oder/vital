@@ -1,0 +1,8 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon / report">
+<path id="Shape" d="M10.3333 4.99866H5C3.89543 4.99866 3 5.89409 3 6.99866V28.9987C3 30.1032 3.89543 30.9987 5 30.9987H27C28.1046 30.9987 29 30.1032 29 28.9987V6.99866C29 5.89409 28.1046 4.99866 27 4.99866H21.6667" stroke="#585CE5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_2" fill-rule="evenodd" clip-rule="evenodd" d="M21.228 6.31466C21.0915 6.72306 20.7093 6.99849 20.2787 6.99866H11.7213C11.2907 6.99849 10.9085 6.72306 10.772 6.31466L9.43867 2.31466C9.33644 2.00961 9.38743 1.67399 9.57565 1.41306C9.76388 1.15214 10.0663 0.997879 10.388 0.99866H21.612C21.9337 0.997879 22.2361 1.15214 22.4244 1.41306C22.6126 1.67399 22.6636 2.00961 22.5613 2.31466L21.228 6.31466Z" stroke="#585CE5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_3" d="M25 8.99866V22.1693C25.0002 22.6998 24.7897 23.2087 24.4147 23.584L21.5853 26.412C21.2106 26.7872 20.7023 26.9982 20.172 26.9987H8C7.44772 26.9987 7 26.5509 7 25.9987V8.99866" stroke="#585CE5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_4" d="M19 26.9987V22.9987C19 21.8941 19.8954 20.9987 21 20.9987H25" stroke="#585CE5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
