@@ -6,7 +6,7 @@ class CustomDropDown extends StatefulWidget {
   final List<String> list;
   final ValueChanged<int> onChange;
 
-  const CustomDropDown({super.key,
+  CustomDropDown({
     this.list = const ["Daily", "Weekly", "Monthly"],
     required this.onChange,
   });
@@ -15,7 +15,8 @@ class CustomDropDown extends StatefulWidget {
   _CustomDropDownState createState() => _CustomDropDownState();
 }
 
-class _CustomDropDownState extends State<CustomDropDown> {
+class _CustomDropDownState extends State<CustomDropDown>
+    with SingleTickerProviderStateMixin {
   bool mExpanded = false;
   late String selectedElement;
 
@@ -37,7 +38,7 @@ class _CustomDropDownState extends State<CustomDropDown> {
   }
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context){
     return Container(
       width: double.infinity,
       decoration: BoxDecoration(
@@ -59,7 +60,8 @@ class _CustomDropDownState extends State<CustomDropDown> {
                 });
               },
               child: Container(
-                padding: const EdgeInsets.symmetric(vertical: 5, horizontal: 16),
+                padding:
+                    const EdgeInsets.symmetric(vertical: 5, horizontal: 16),
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(20),
                 ),
@@ -75,51 +77,55 @@ class _CustomDropDownState extends State<CustomDropDown> {
                 ),
               ),
             ),
-            if (mExpanded)
-              Column(
-                children: widget.list.map((s) {
-                  return Column(
-                    children: [
-                      const Divider(color: AppColors.violet),
-                      GestureDetector(
-                        onTap: () {
-                          setState(() {
-                            selectedElement = s;
-                            mExpanded = false;
-                          });
-                          widget.onChange(widget.list.indexOf(s));
-                        },
-                        child: Container(
-                          decoration: BoxDecoration(
-                            color: s == selectedElement
-                                ? AppColors.violetLight
-                                : Colors.transparent,
-                            borderRadius: BorderRadius.circular(6),
-                          ),
-                          padding: const EdgeInsets.symmetric(
-                              horizontal: 8, vertical: 3),
-                          child: Row(
-                            children: [
-                              Text(
-                                s,
-                                style: const TextStyle(
-                                  color: AppColors.deepBlue,
-                                  fontSize: 16,
+            AnimatedSize(
+              duration: const Duration(milliseconds: 300),
+              curve: Curves.easeInOut,
+              child: Column(
+                children: mExpanded
+                    ? widget.list.map((s) {
+                        return Column(
+                          children: [
+                            Divider(color: AppColors.violet),
+                            GestureDetector(
+                              onTap: () {
+                                setState(() {
+                                  selectedElement = s;
+                                  mExpanded = false;
+                                });
+                                widget.onChange(widget.list.indexOf(s));
+                              },
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  color: s == selectedElement
+                                      ? AppColors.violetLight
+                                      : Colors.transparent,
+                                  borderRadius: BorderRadius.circular(6),
                                 ),
-                                textAlign: TextAlign.start,
+                                padding: const EdgeInsets.symmetric(
+                                    horizontal: 8, vertical: 3),
+                                child: Row(
+                                  children: [
+                                    Text(
+                                      s,
+                                      style: TextStyle(
+                                        color: AppColors.deepBlue,
+                                        fontSize: 16,
+                                      ),
+                                      textAlign: TextAlign.start,
+                                    ),
+                                  ],
+                                ),
                               ),
-                            ],
-                          ),
-                        ),
-                      ),
-                    ],
-                  );
-                }).toList(),
+                            ),
+                          ],
+                        );
+                      }).toList()
+                    : [],
               ),
+            ),
           ],
         ),
       ),
     );
   }
 }
-
