@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:svg_flutter/svg.dart';
+import 'package:vital/core/presentation/utils/app_assets.dart';
 
 import '../app_colors.dart';
 
@@ -6,7 +8,7 @@ class CustomDropDown extends StatefulWidget {
   final List<String> list;
   final ValueChanged<int> onChange;
 
-  CustomDropDown({
+  const CustomDropDown({super.key,
     this.list = const ["Daily", "Weekly", "Monthly"],
     required this.onChange,
   });
@@ -23,7 +25,7 @@ class _CustomDropDownState extends State<CustomDropDown>
   @override
   void initState() {
     super.initState();
-    selectedElement = widget.list[0];
+    selectedElement = "-----";
     WidgetsBinding.instance.addPostFrameCallback((_) {
       widget.onChange(widget.list.indexOf(selectedElement));
     });
@@ -38,7 +40,7 @@ class _CustomDropDownState extends State<CustomDropDown>
   }
 
   @override
-  Widget build(BuildContext context){
+  Widget build(BuildContext context) {
     return Container(
       width: double.infinity,
       decoration: BoxDecoration(
@@ -46,12 +48,13 @@ class _CustomDropDownState extends State<CustomDropDown>
         borderRadius: BorderRadius.circular(20),
         border: Border.all(
           color: mExpanded ? AppColors.purplePlum : AppColors.lilacPetalsDark,
-          width: 1,
+          width: 1.5,
         ),
       ),
       child: Padding(
         padding: const EdgeInsets.symmetric(vertical: 13, horizontal: 8),
         child: Column(
+          mainAxisSize: MainAxisSize.min,
           children: [
             GestureDetector(
               onTap: () {
@@ -69,9 +72,19 @@ class _CustomDropDownState extends State<CustomDropDown>
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(selectedElement, style: const TextStyle(fontSize: 16)),
-                    Icon(
-                      mExpanded ? Icons.expand_less : Icons.expand_more,
-                      color: Colors.black,
+                    Container(
+                      decoration: BoxDecoration(
+                        color: mExpanded
+                            ? AppColors.violetLight
+                            : Colors.transparent,
+                        borderRadius: BorderRadius.circular(30),
+                      ),
+                      child: SvgPicture.asset(
+                        mExpanded ?AppAssets.arrowUp: AppAssets.arrowDown,
+                        color: AppColors.deepBlue,
+                        width: 30,
+                        height: 30,
+                      ),
                     ),
                   ],
                 ),
@@ -81,11 +94,14 @@ class _CustomDropDownState extends State<CustomDropDown>
               duration: const Duration(milliseconds: 300),
               curve: Curves.easeInOut,
               child: Column(
+                mainAxisSize: MainAxisSize.min,
                 children: mExpanded
                     ? widget.list.map((s) {
                         return Column(
+                          mainAxisSize: MainAxisSize.min,
+                          crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Divider(color: AppColors.violet),
+                            const Divider(color: AppColors.violet),
                             GestureDetector(
                               onTap: () {
                                 setState(() {
@@ -103,17 +119,13 @@ class _CustomDropDownState extends State<CustomDropDown>
                                 ),
                                 padding: const EdgeInsets.symmetric(
                                     horizontal: 8, vertical: 3),
-                                child: Row(
-                                  children: [
-                                    Text(
-                                      s,
-                                      style: TextStyle(
-                                        color: AppColors.deepBlue,
-                                        fontSize: 16,
-                                      ),
-                                      textAlign: TextAlign.start,
-                                    ),
-                                  ],
+                                child: Text(
+                                  s,
+                                  style: const TextStyle(
+                                    color: AppColors.deepBlue,
+                                    fontSize: 16,
+                                  ),
+                                  textAlign: TextAlign.start,
                                 ),
                               ),
                             ),
